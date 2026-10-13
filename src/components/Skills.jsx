@@ -18,10 +18,22 @@ const skillCategories = [
     skills: ['FBR IRIS', 'PRA Portal', 'SRB Portal', 'KPRA', 'BRA']
   },
   {
+    title: 'UAE Tax and Compliance',
+    desc: 'FTA Corporate Tax registration, 9% taxable profit filing, Small Business Relief (SBR) up to AED 3M, 0% Qualifying Free Zone Person (QFZP) regime, and 5% UAE VAT returns.',
+    tag: 'UAE TAX',
+    skills: ['FTA EmaraTax', 'Corporate Tax 9%', 'SBR (AED 3M)', 'Free Zone 0%', 'UAE VAT 5%']
+  },
+  {
     title: 'US Tax and Compliance',
     desc: 'Form 5472 and pro forma 1120 for foreign owned US LLCs. Form W8BEN, 1040NR, FBAR, FATCA and cross border Pakistan and US tax planning.',
     tag: 'US TAX',
     skills: ['Form 5472', 'Form 1120', 'Form W8BEN', 'FBAR', 'IRS e-Services']
+  },
+  {
+    title: 'Software & ERP Implementation',
+    desc: 'End-to-end setup, data migration, and workflow automation for cloud ERP and accounting ecosystems. Custom Chart of Accounts, bank feeds, inventory tracking, and payment gateways.',
+    tag: 'ERP & SYSTEMS',
+    skills: ['Odoo ERP', 'QuickBooks Online', 'FinMin', 'Xero', 'Zoho Books', 'Data Migration']
   },
   {
     title: 'Finance and CFO Work',
@@ -121,7 +133,7 @@ const Skills = () => {
         ScrollTrigger.create({
           trigger: sectionRef.current,
           start: "top top",
-          end: "+=500%",
+          end: "+=600%",
           pin: true,
           scrub: 1,
           onUpdate: (self) => {
@@ -200,7 +212,7 @@ const Skills = () => {
                 {category.tag}
               </span>
               <span className="text-xs font-mono text-white/40">
-                [ 0{i + 1} / 06 ]
+                [ {String(i + 1).padStart(2, '0')} / {String(skillCategories.length).padStart(2, '0')} ]
               </span>
             </div>
 
