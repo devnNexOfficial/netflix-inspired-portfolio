@@ -115,10 +115,18 @@ const Contact = () => {
 
           {submitted ? (
             <div className="py-12 text-center space-y-6">
-              <div className="w-16 h-16 bg-red-600/20 border border-red-600 text-red-500 rounded-full flex items-center justify-center mx-auto text-3xl shadow-[0_0_20px_rgba(229,9,20,0.4)]">
-                &check;
+              <div className="relative w-16 h-16 mx-auto flex items-center justify-center">
+                <div className="absolute inset-0 rounded-full bg-red-600/20 animate-ping opacity-60"></div>
+                <div className="relative w-16 h-16 rounded-full bg-[#1c1c1c] border-2 border-red-600 flex items-center justify-center shadow-[0_0_25px_rgba(229,9,20,0.5)]">
+                  <svg className="w-8 h-8 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
               </div>
               <div className="space-y-2">
+                <span className="text-[10px] font-mono uppercase tracking-widest text-red-500 font-bold block">
+                  CONFIDENTIAL INQUIRY DELIVERED
+                </span>
                 <h3 className="text-2xl md:text-3xl font-black text-white">Inquiry Received, {formData.name}!</h3>
                 <p className="text-xs md:text-sm text-white/70 max-w-md mx-auto leading-relaxed">
                   Your inquiry has been sent directly to Faizan&apos;s email (<span className="text-white font-mono font-bold">iamfaizan2004@gmail.com</span>). You will receive an advisory reply within 24 hours.
@@ -126,7 +134,7 @@ const Contact = () => {
               </div>
 
               {/* Instant WhatsApp Option */}
-              <div className="p-4 bg-white/[0.03] border border-white/10 rounded-2xl max-w-sm mx-auto space-y-2">
+              <div className="p-4 bg-gradient-to-br from-green-950/20 via-black to-black border border-green-600/30 rounded-2xl max-w-sm mx-auto space-y-2.5 shadow-[0_5px_20px_rgba(34,197,94,0.15)]">
                 <span className="text-[11px] font-mono text-green-400 font-bold uppercase tracking-wider block">
                   &bull; Instant WhatsApp Connect
                 </span>
@@ -136,9 +144,9 @@ const Contact = () => {
                   )}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full inline-flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-green-600 hover:bg-green-700 text-white font-mono font-bold text-xs uppercase tracking-widest transition-all shadow-[0_0_20px_rgba(34,197,94,0.4)]"
+                  className="w-full inline-flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-500 hover:to-emerald-500 text-white font-mono font-bold text-xs uppercase tracking-widest transition-all shadow-[0_0_20px_rgba(34,197,94,0.4)] hover:scale-[1.01]"
                 >
-                  <span>Chat on WhatsApp (+92 339 9091707)</span>
+                  <span>Chat on WhatsApp (0339 9091707)</span>
                   <span>&rarr;</span>
                 </a>
               </div>
@@ -157,7 +165,7 @@ const Contact = () => {
                       permission: false
                     });
                   }}
-                  className="px-6 py-2.5 bg-white/10 hover:bg-white/20 text-white font-mono text-xs uppercase tracking-widest rounded-lg transition-all"
+                  className="px-6 py-2.5 bg-white/5 hover:bg-white/10 border border-white/10 text-white font-mono text-xs uppercase tracking-widest rounded-lg transition-all"
                 >
                   Send Another Inquiry
                 </button>
