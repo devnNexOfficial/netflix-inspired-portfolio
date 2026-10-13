@@ -63,6 +63,14 @@ const featuredCategories = [
     description: 'End-to-end bookkeeping, automated bank reconciliation, monthly P&L, balance sheets, cash flow forecasting, and KPI dashboards in QuickBooks, Xero, and Excel.',
     items: ['Daily Bookkeeping & Cleanup', 'Virtual CFO & Financial Modeling', 'COGS & E-Commerce Accounting', 'Payroll & Audit-Ready Books'],
     badge: 'PROVEN SYSTEM'
+  },
+  {
+    title: 'Software & ERP Implementation',
+    tag: 'ERP & SYSTEMS',
+    route: '/work',
+    description: 'Complete setup, migration, and automation for modern cloud accounting and ERP systems. Custom Chart of Accounts, inventory sync, and multi-currency ledgers.',
+    items: ['Odoo ERP Implementation', 'QuickBooks & Xero Setup', 'FinMin Financial Schedules', 'Custom Feeds & Automation'],
+    badge: 'CLOUD SYSTEMS'
   }
 ];
 
@@ -129,11 +137,11 @@ const Home = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
           {featuredCategories.map((cat, idx) => (
             <div
               key={idx}
-              className="group relative bg-[#121212] border border-white/10 hover:border-red-600/80 rounded-2xl p-8 flex flex-col justify-between transition-all duration-500 hover:shadow-[0_20px_50px_rgba(229,9,20,0.25)] hover:-translate-y-2 overflow-hidden"
+              className="group relative bg-[#121212] border border-white/10 hover:border-red-600/80 rounded-2xl p-6 lg:p-7 flex flex-col justify-between transition-all duration-500 hover:shadow-[0_20px_50px_rgba(229,9,20,0.25)] hover:-translate-y-2 overflow-hidden"
             >
               <div className="absolute top-0 right-0 w-32 h-32 bg-red-600/10 rounded-full blur-3xl group-hover:bg-red-600/20 transition-all"></div>
               
@@ -147,7 +155,7 @@ const Home = () => {
                   </span>
                 </div>
 
-                <h3 className="text-2xl font-black text-white group-hover:text-red-500 transition-colors">
+                <h3 className="text-xl lg:text-2xl font-black text-white group-hover:text-red-500 transition-colors leading-snug">
                   {cat.title}
                 </h3>
 
