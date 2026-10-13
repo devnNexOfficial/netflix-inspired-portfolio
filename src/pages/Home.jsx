@@ -19,7 +19,7 @@ const homeFaqs = [
   },
   {
     q: 'What accounting software ecosystems do you work with?',
-    a: 'I manage ledgers and reporting directly in QuickBooks Online, Xero, Zoho Books, Microsoft Excel (Advanced financial modeling), Power BI, as well as governmental portals: FBR IRIS, FTA EmaraTax, and IRS e-Services.'
+    a: 'I manage ledgers and reporting directly in QuickBooks Online, Xero, Zoho Books, Odoo ERP, FinMin, Microsoft Excel (Advanced financial modeling), Power BI, as well as governmental portals: FBR IRIS, FTA EmaraTax, and IRS e-Services.'
   },
   {
     q: 'Do you offer ongoing monthly retainers or one-off filings?',

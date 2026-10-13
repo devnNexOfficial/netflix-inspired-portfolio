@@ -8,7 +8,7 @@ const expertiseData = [
   {
     number: "01",
     title: "Accounting and Bookkeeping",
-    text: "Daily transaction recording, bank reconciliation, accounts payable and receivable, payroll, inventory tracking and monthly financial statements in QuickBooks, Xero, Zoho Books or Excel.",
+    text: "Daily transaction recording, bank reconciliation, accounts payable and receivable, payroll, inventory tracking and monthly financial statements in QuickBooks, Xero, Zoho Books, Odoo, FinMin and Excel.",
     tag: "ACCOUNTING",
     gradient: "from-[#1f0a0c] via-[#121212] to-[#0a0a0a]"
   },

@@ -9,7 +9,7 @@ const skillCategories = [
     title: 'Accounting and Bookkeeping',
     desc: 'Chart of accounts setup, daily bookkeeping, bank reconciliation, accounts payable and receivable, payroll, inventory tracking and monthly financial statements.',
     tag: 'ACCOUNTING',
-    skills: ['QuickBooks', 'Xero', 'Zoho Books', 'Excel', 'Google Sheets']
+    skills: ['QuickBooks', 'Xero', 'Zoho Books', 'Odoo', 'FinMin', 'Excel', 'Google Sheets']
   },
   {
     title: 'Pakistan Tax',

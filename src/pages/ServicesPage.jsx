@@ -40,7 +40,7 @@ const servicesCatalog = [
       'Payroll processing and wage deduction reporting',
       'Complete year-end account closing and CPA/auditor handover'
     ],
-    software: ['QuickBooks Online', 'Xero', 'Zoho Books', 'Microsoft Excel'],
+    software: ['QuickBooks Online', 'Xero', 'Zoho Books', 'Odoo ERP', 'FinMin', 'Microsoft Excel'],
     highlight: 'Never enter tax season with unreconciled accounts or missing receipts.'
   },
   {
@@ -98,6 +98,8 @@ const softwareStack = [
   { name: 'QuickBooks Online', type: 'Accounting Software', desc: 'Industry-standard cloud ledger management' },
   { name: 'Xero Accounting', type: 'Cloud Accounting', desc: 'Seamless bank feeds and automated invoicing' },
   { name: 'Zoho Books', type: 'SME Accounting', desc: 'Integrated inventory and client portal system' },
+  { name: 'Odoo ERP', type: 'ERP Accounting', desc: 'Integrated modular bookkeeping, billing, inventory, and supply chain ledgers' },
+  { name: 'FinMin Portal', type: 'Govt & Institutional Finance', desc: 'Ministry of Finance compliance schedules and regulatory reporting' },
   { name: 'Microsoft Excel (Advanced)', type: 'Financial Modeling', desc: 'Dynamic financial models, VBA, and scenario analysis' },
   { name: 'Power BI', type: 'Data Visualization', desc: 'Real-time financial KPI dashboards and reports' },
   { name: 'FBR IRIS Portal', type: 'Tax Administration', desc: 'Direct portal submission for Pakistan income and wealth statements' },

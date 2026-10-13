@@ -11,7 +11,7 @@ const servicesData = [
     title: "Bookkeeping and Monthly Accounts",
     category: "Accounting",
     description: "Daily transaction recording, bank reconciliation, monthly profit and loss, balance sheet and cash flow report.",
-    tags: ["Accounting", "QuickBooks", "Xero", "Excel"],
+    tags: ["Accounting", "QuickBooks", "Xero", "Odoo", "FinMin", "Excel"],
     match: "99%",
     episode: "S01 E01"
   },
