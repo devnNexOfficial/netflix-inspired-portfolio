@@ -24,9 +24,9 @@ const aboutFaqs = [
 
 const stats = [
   { value: '100+', label: 'Active Clients Served', detail: 'SMEs, freelancers, and online sellers' },
-  { value: '500+', label: 'Tax Returns & Forms Filed', detail: 'FBR IRIS, PRA, SRB & IRS Form 5472' },
-  { value: '5+', label: 'Years Specialization', detail: 'Accounting, tax laws & financial modeling' },
-  { value: '100%', label: 'Cross-Border Coverage', detail: 'Serving clients across Pakistan and USA' },
+  { value: '500+', label: 'Tax Returns & Forms Filed', detail: 'FBR IRIS, PRA, SRB, UAE FTA & IRS Form 5472' },
+  { value: '3+1 Yrs', label: 'Domain Experience', detail: '3 yrs theoretical foundation + 1+ yr active practical practice' },
+  { value: '100%', label: 'Cross-Border Coverage', detail: 'Serving clients across Pakistan, UAE, and USA' },
 ];
 
 const caseStudies = [
@@ -75,7 +75,7 @@ const AboutPage = () => {
           ABOUT ME & MY PRACTICE
         </h1>
         <p className="text-sm md:text-base text-white/70 max-w-3xl font-light leading-relaxed">
-          I believe numbers should make business decisions easier, not harder. Clean books, verified tax filings, and proactive financial intelligence under one roof.
+          I believe numbers should make business decisions easier, not harder. Clean books, compliant tax filings, and proactive financial intelligence under one roof.
         </p>
       </div>
 
@@ -109,12 +109,12 @@ const AboutPage = () => {
                 MY MISSION
               </span>
               <h2 className="text-2xl md:text-4xl font-black text-white">
-                Helping You Build Financial Confidence in Pakistan & USA
+                Helping You Build Financial Confidence in Pakistan, UAE & USA
               </h2>
             </div>
 
             <p className="text-sm text-white/80 font-light leading-relaxed">
-              I am an accounting and tax professional who works with freelancers, online sellers, startups, and growing small companies.
+              I am an accounting and tax professional backed by <strong className="text-white">3 years of rigorous academic & theoretical foundation</strong> in financial accounting and corporate tax regulations, combined with <strong className="text-white">1+ year of intensive practical field practice</strong> actively serving 100+ clients across Pakistan, the UAE, and the United States.
             </p>
 
             <p className="text-sm text-white/80 font-light leading-relaxed">

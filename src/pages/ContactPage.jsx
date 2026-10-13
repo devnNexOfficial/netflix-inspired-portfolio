@@ -78,7 +78,7 @@ const ContactPage = () => {
           LET&apos;S FIX YOUR NUMBERS
         </h1>
         <p className="text-sm md:text-base text-white/70 max-w-2xl font-light leading-relaxed">
-          Send a message below and get a verified professional response within 24 hours. Book a consultation or discuss your accounting and tax requirements in complete confidence.
+          Send a message below and get a prompt professional response within 24 hours. Connect directly or discuss your accounting and tax requirements in complete confidence.
         </p>
       </div>
 

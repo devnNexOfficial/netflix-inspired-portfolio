@@ -140,7 +140,7 @@ const USTaxPage = () => {
               </div>
             </div>
             <Link to="/contact" className="text-xs font-mono text-red-500 hover:text-white flex items-center gap-1 font-bold">
-              <span>Book LLC Filing</span> &rarr;
+              <span>Get in Touch for LLC Filing</span> &rarr;
             </Link>
           </div>
 

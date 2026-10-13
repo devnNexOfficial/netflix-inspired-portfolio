@@ -83,7 +83,7 @@ const Navbar = () => {
             to="/contact"
             className="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded bg-red-600 hover:bg-red-700 text-white font-mono font-bold text-xs uppercase tracking-widest transition-all duration-300 shadow-[0_0_20px_rgba(229,9,20,0.6)] hover:scale-105 active:scale-95 border border-red-500"
           >
-            <span>Book Now</span>
+            <span>Get in Touch</span>
             <span className="w-1.5 h-1.5 rounded-full bg-white animate-ping"></span>
           </Link>
 
@@ -134,11 +134,11 @@ const Navbar = () => {
                 to="/contact"
                 className="w-full text-center py-3 rounded bg-red-600 text-white font-mono font-bold text-xs uppercase tracking-widest shadow-[0_0_15px_rgba(229,9,20,0.5)]"
               >
-                Book Free Consultation
+                Get in Touch
               </Link>
               <div className="flex justify-between items-center text-[11px] font-mono text-white/40 pt-2 px-1">
-                <span>PAKISTAN &bull; USA TAX</span>
-                <span>FBR &bull; IRS</span>
+                <span>PAKISTAN &bull; UAE &bull; USA TAX</span>
+                <span>FBR &bull; FTA &bull; IRS</span>
               </div>
             </div>
           </div>

@@ -33,12 +33,12 @@ const Hero = () => {
       { y: 50, opacity: 0, filter: "blur(10px)" },
       { y: 0, opacity: 1, filter: "blur(0px)", duration: 1.1, stagger: 0.12 }
     )
-    .fromTo(
-      card,
-      { scale: 0.75, opacity: 0, rotationY: 35, rotationX: -15 },
-      { scale: 1, opacity: 1, rotationY: 0, rotationX: 0, duration: 1.4, ease: "back.out(1.2)" },
-      "-=0.9"
-    );
+      .fromTo(
+        card,
+        { scale: 0.75, opacity: 0, rotationY: 35, rotationX: -15 },
+        { scale: 1, opacity: 1, rotationY: 0, rotationX: 0, duration: 1.4, ease: "back.out(1.2)" },
+        "-=0.9"
+      );
 
     gsap.set([cursorDotRef.current, cursorRingRef.current], {
       scale: 0.5,
@@ -160,7 +160,7 @@ const Hero = () => {
             <span className="w-2 h-2 rounded-full bg-red-600 animate-ping"></span>
             <span className="text-red-500 font-bold tracking-wider">ADVISORY SERIES</span>
             <span className="text-white/40">|</span>
-            <span className="text-white/80">PAKISTAN AND USA</span>
+            <span className="text-white/80">PAKISTAN , UAE AND USA</span>
           </div>
           <div className="hidden md:flex items-center gap-2 text-xs font-mono text-white/50 tracking-wider">
             <span className="px-2 py-0.5 border border-white/20 rounded bg-black/40">FBR REGISTERED</span>
@@ -175,7 +175,6 @@ const Hero = () => {
           <div className="lg:col-span-5 flex flex-col items-start space-y-5 text-left">
 
             <div className="hero-anim-item flex items-center gap-3">
-              <span className="px-2.5 py-0.5 bg-red-600 text-white font-black text-xs rounded tracking-widest shadow-[0_0_20px_rgba(229,9,20,0.8)] animate-pulse">VERIFIED</span>
               <span className="text-white/80 text-xs font-mono tracking-widest uppercase">Accountant and Tax Consultant</span>
             </div>
 
@@ -195,7 +194,7 @@ const Hero = () => {
             </div>
 
             <p className="hero-anim-item text-sm md:text-base text-white/80 font-light leading-relaxed max-w-md drop-shadow">
-              Professional accounting, Pakistan tax, US tax and business advisory under one roof.
+              Professional accounting, Pakistan tax, US tax, UAE tax and business advisory under one roof.
             </p>
 
             <div className="hero-anim-item flex flex-wrap items-center gap-4 pt-2">
@@ -205,9 +204,9 @@ const Hero = () => {
               >
                 {/* Briefcase Icon */}
                 <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
-                  <path d="M20 7h-4V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2H4a2 2 0 00-2 2v11a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2zm-10-2h4v2h-4V5z"/>
+                  <path d="M20 7h-4V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2H4a2 2 0 00-2 2v11a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2zm-10-2h4v2h-4V5z" />
                 </svg>
-                Book a Free Consultation
+                Get in Touch
               </Link>
               <Link
                 to="/work"

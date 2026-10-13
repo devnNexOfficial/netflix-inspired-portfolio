@@ -98,7 +98,7 @@ const About = () => {
               <span className="px-3.5 py-1.5 rounded bg-white/5 border border-white/10 text-xs font-mono text-white/80">Accounting</span>
               <span className="px-3.5 py-1.5 rounded bg-white/5 border border-white/10 text-xs font-mono text-white/80">Tax Consulting</span>
               <span className="px-3.5 py-1.5 rounded bg-white/5 border border-white/10 text-xs font-mono text-white/80">Business Advisory</span>
-              <span className="px-3.5 py-1.5 rounded bg-white/5 border border-white/10 text-xs font-mono text-white/80">Pakistan and USA</span>
+              <span className="px-3.5 py-1.5 rounded bg-white/5 border border-white/10 text-xs font-mono text-white/80">Pakistan, UAE and USA</span>
             </div>
           </div>
 
@@ -118,25 +118,25 @@ const About = () => {
               <ul className="space-y-3.5 text-sm text-white/80 font-light">
                 <li className="flex items-start gap-2.5">
                   <span className="text-red-500 font-bold">&#8250;</span>
-                  <span><strong className="text-white">[X]+ Clients</strong> served in Pakistan and the USA.</span>
+                  <span><strong className="text-white">100+ Clients</strong> served in Pakistan, UAE, and the USA.</span>
                 </li>
                 <li className="flex items-start gap-2.5">
                   <span className="text-red-500 font-bold">&#8250;</span>
-                  <span><strong className="text-white">[X]+ Returns Filed</strong> including income tax, sales tax and US compliance forms.</span>
+                  <span><strong className="text-white">500+ Returns & Forms Filed</strong> across FBR, UAE FTA, and US IRS compliance.</span>
                 </li>
                 <li className="flex items-start gap-2.5">
                   <span className="text-red-500 font-bold">&#8250;</span>
-                  <span><strong className="text-white">[X] Years Experience</strong> in accounting, tax and business advisory.</span>
+                  <span><strong className="text-white">Experience:</strong> 3 Years Rigorous Academic & Theoretical Foundation in Accounting & Taxation + 1+ Year Hands-On Practical Field Practice.</span>
                 </li>
                 <li className="flex items-start gap-2.5">
                   <span className="text-red-500 font-bold">&#8250;</span>
-                  <span>Location: <strong className="text-white">Pakistan</strong>, serving clients in Pakistan and the USA.</span>
+                  <span>Location: <strong className="text-white">Pakistan</strong>, serving clients in Pakistan, UAE, and the USA.</span>
                 </li>
               </ul>
             </div>
 
-            <div className="pt-6 font-mono text-xs text-white/40 relative z-10">
-              // PLACEHOLDERS: FILL WITH REAL NUMBERS
+            <div className="pt-6 font-mono text-xs text-red-500/80 relative z-10 font-bold uppercase tracking-wider">
+              // PROVEN TRACK RECORD // ACCURACY FIRST
             </div>
           </div>
 

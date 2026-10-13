@@ -15,7 +15,7 @@ const homeFaqs = [
   },
   {
     q: 'How do you prevent double taxation for cross-border businesses?',
-    a: 'By leveraging Bilateral Double Tax Avoidance Treaties (DTT), utilizing Foreign Tax Credits (FTC), structuring qualifying foreign remittances correctly, and preparing verified wealth reconciliation statements to ensure full legal immunity on both sides.'
+    a: 'By leveraging Bilateral Double Tax Avoidance Treaties (DTT), utilizing Foreign Tax Credits (FTC), structuring qualifying foreign remittances correctly, and preparing comprehensive wealth reconciliation statements to ensure full legal immunity on both sides.'
   },
   {
     q: 'What accounting software ecosystems do you work with?',
