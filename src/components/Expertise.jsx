@@ -21,16 +21,23 @@ const expertiseData = [
   },
   {
     number: "03",
+    title: "UAE Tax & Corporate Compliance",
+    text: "FTA Corporate Tax registration, AED 10k penalty avoidance, 9% tax vs Small Business Relief (SBR) up to AED 3M, 0% Qualifying Free Zone Person (QFZP) regime, and 5% UAE VAT filings.",
+    tag: "UAE TAX",
+    gradient: "from-[#240b0e] via-[#131313] to-[#0a0a0a]"
+  },
+  {
+    number: "04",
     title: "US Tax and LLC Compliance",
     text: "Annual Form 5472 and pro forma 1120 for foreign owned US LLCs. Form W8BEN, 1040NR, FBAR and FATCA reporting. Pakistan and US cross border tax planning to avoid double taxation.",
     tag: "US TAX",
     gradient: "from-[#220a0d] via-[#131313] to-[#0a0a0a]"
   },
   {
-    number: "04",
-    title: "Finance, CFO and Advisory",
+    number: "05",
+    title: "Financial Planning & Advisory",
     text: "Budgeting, cash flow forecasting, financial modeling, break even analysis, KPI dashboards and investor ready statements. Business registration, pricing strategy and growth planning.",
-    tag: "FINANCE AND ADVISORY",
+    tag: "FINANCIAL PLANNING & ADVISORY",
     gradient: "from-[#1d090b] via-[#101010] to-[#080808]"
   }
 ];
