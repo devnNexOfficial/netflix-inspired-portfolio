@@ -293,43 +293,37 @@ const ContactPage = () => {
                   href="https://wa.me/923399091707"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-3 p-3 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl transition-colors group"
+                  className="flex items-center justify-between p-4 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-green-500/50 rounded-xl transition-all group"
                 >
-                  <span className="w-8 h-8 rounded-lg bg-green-600/20 border border-green-500 text-green-400 flex items-center justify-center font-bold text-xs">
-                    WA
-                  </span>
                   <div>
-                    <span className="text-xs font-mono text-white/40 block">WhatsApp Chat</span>
-                    <span className="text-xs font-bold text-white group-hover:text-green-400 transition-colors">0339 9091707 / +92 339 9091707</span>
+                    <span className="text-xs font-mono text-white/40 block mb-0.5">WhatsApp Chat</span>
+                    <span className="text-sm font-bold text-white group-hover:text-green-400 transition-colors font-mono">0339 9091707</span>
                   </div>
+                  <span className="text-xs font-mono text-white/30 group-hover:text-green-400 transition-colors">&rarr;</span>
                 </a>
 
                 <a
                   href="mailto:iamfaizan2004@gmail.com"
-                  className="flex items-center gap-3 p-3 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl transition-colors group"
+                  className="flex items-center justify-between p-4 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-red-500/50 rounded-xl transition-all group"
                 >
-                  <span className="w-8 h-8 rounded-lg bg-red-600/20 border border-red-500 text-red-400 flex items-center justify-center font-bold text-xs">
-                    @
-                  </span>
                   <div>
-                    <span className="text-xs font-mono text-white/40 block">Direct Email</span>
-                    <span className="text-xs font-bold text-white group-hover:text-red-400 transition-colors">iamfaizan2004@gmail.com</span>
+                    <span className="text-xs font-mono text-white/40 block mb-0.5">Direct Email</span>
+                    <span className="text-sm font-bold text-white group-hover:text-red-400 transition-colors font-mono">iamfaizan2004@gmail.com</span>
                   </div>
+                  <span className="text-xs font-mono text-white/30 group-hover:text-red-400 transition-colors">&rarr;</span>
                 </a>
 
                 <a
                   href="https://www.linkedin.com/in/itsfaizanhere/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-3 p-3 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl transition-colors group"
+                  className="flex items-center justify-between p-4 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-blue-500/50 rounded-xl transition-all group"
                 >
-                  <span className="w-8 h-8 rounded-lg bg-blue-600/20 border border-blue-500 text-blue-400 flex items-center justify-center font-bold text-xs">
-                    in
-                  </span>
                   <div>
-                    <span className="text-xs font-mono text-white/40 block">LinkedIn Profile</span>
-                    <span className="text-xs font-bold text-white group-hover:text-blue-400 transition-colors">linkedin.com/in/itsfaizanhere</span>
+                    <span className="text-xs font-mono text-white/40 block mb-0.5">LinkedIn Profile</span>
+                    <span className="text-sm font-bold text-white group-hover:text-blue-400 transition-colors font-mono">linkedin.com/in/itsfaizanhere</span>
                   </div>
+                  <span className="text-xs font-mono text-white/30 group-hover:text-blue-400 transition-colors">&rarr;</span>
                 </a>
               </div>
             </div>

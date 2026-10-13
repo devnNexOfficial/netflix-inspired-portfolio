@@ -49,9 +49,9 @@ const Footer = () => {
               href="https://www.linkedin.com/in/itsfaizanhere/"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-blue-400 transition-colors uppercase tracking-wider flex items-center gap-1"
+              className="hover:text-blue-400 transition-colors uppercase tracking-wider"
             >
-              <span className="text-blue-400 font-bold">in</span> LinkedIn //
+              LinkedIn //
             </a>
           </div>
 
