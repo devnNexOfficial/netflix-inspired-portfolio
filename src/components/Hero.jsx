@@ -251,7 +251,7 @@ const Hero = () => {
             <div className="p-5 bg-black/80 backdrop-blur-2xl border border-white/15 rounded-xl shadow-2xl max-w-xs">
               <h3 className="text-xs font-mono uppercase tracking-widest text-red-500 font-bold mb-2">Core Work</h3>
               <p className="text-xs text-white/80 leading-relaxed font-light">
-                Accounting, FBR tax filing, US LLC compliance (Form 5472), sales tax, virtual CFO and business advisory.
+                Accounting, FBR tax filing, UAE Corporate Tax & VAT, US LLC compliance (Form 5472), sales tax, virtual CFO and business advisory.
               </p>
             </div>
           </div>
@@ -261,7 +261,7 @@ const Hero = () => {
         {/* Bottom Ticker */}
         <div className="hero-anim-item flex items-center justify-between text-xs font-mono text-white/50 tracking-widest uppercase">
           <span>ACCOUNTING CLARITY. TAX CONFIDENCE. BUSINESS GROWTH.</span>
-          <span>[ SERVING PAKISTAN AND USA ]</span>
+          <span>[ SERVING PAKISTAN, UAE AND USA ]</span>
         </div>
       </div>
 
