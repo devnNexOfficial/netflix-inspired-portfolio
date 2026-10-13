@@ -61,8 +61,8 @@ const servicesCatalog = [
   },
   {
     id: 'cfo',
-    category: 'FINANCE & VIRTUAL CFO',
-    title: 'Virtual CFO, Financial Modeling & KPI Dashboards',
+    category: 'FINANCIAL PLANNING',
+    title: 'Financial Modeling & KPI Dashboards',
     tagline: 'Strategic financial leadership and forward-looking guidance without the full-time executive cost.',
     features: [
       'Rolling 12-month cash flow forecasting and runway management',

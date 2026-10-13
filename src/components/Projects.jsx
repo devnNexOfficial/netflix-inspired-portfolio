@@ -48,10 +48,10 @@ const servicesData = [
     episode: "S01 E05"
   },
   {
-    title: "Virtual CFO Work",
-    category: "Finance",
-    description: "Budgeting, forecasting, KPI dashboards and monthly management reporting.",
-    tags: ["Finance", "Budgeting", "KPI", "Reporting"],
+    title: "Software Implementation",
+    category: "ERP and Systems",
+    description: "Cloud ERP and accounting setup, ledger configuration, data migration, and workflow automation.",
+    tags: ["Odoo", "QuickBooks", "FinMin", "Xero"],
     match: "98%",
     episode: "S01 E06"
   },
@@ -320,7 +320,7 @@ const Services = () => {
                 <p className="text-xs text-white/70 font-light line-clamp-2">{service.description}</p>
               </div>
               <div className="flex flex-wrap gap-1 pt-2 border-t border-white/10">
-                {service.tags.slice(0, 3).map((tag, tIdx) => (
+                {service.tags.map((tag, tIdx) => (
                   <span key={tIdx} className="text-[10px] font-mono text-white/60 bg-white/5 px-2 py-0.5 rounded">
                     {tag}
                   </span>
