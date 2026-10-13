@@ -318,7 +318,7 @@ const ContactPage = () => {
                 </a>
 
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/itsfaizanhere/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 p-3 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl transition-colors group"
@@ -328,7 +328,7 @@ const ContactPage = () => {
                   </span>
                   <div>
                     <span className="text-xs font-mono text-white/40 block">LinkedIn Profile</span>
-                    <span className="text-xs font-bold text-white group-hover:text-blue-400 transition-colors">Connect on LinkedIn</span>
+                    <span className="text-xs font-bold text-white group-hover:text-blue-400 transition-colors">linkedin.com/in/itsfaizanhere</span>
                   </div>
                 </a>
               </div>

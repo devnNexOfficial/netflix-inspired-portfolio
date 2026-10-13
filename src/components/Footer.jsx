@@ -46,12 +46,12 @@ const Footer = () => {
               <span className="text-red-500 font-bold">Email:</span> iamfaizan2004@gmail.com //
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/itsfaizanhere/"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-blue-400 transition-colors uppercase tracking-wider"
+              className="hover:text-blue-400 transition-colors uppercase tracking-wider flex items-center gap-1"
             >
-              LinkedIn //
+              <span className="text-blue-400 font-bold">in</span> LinkedIn //
             </a>
           </div>
 
