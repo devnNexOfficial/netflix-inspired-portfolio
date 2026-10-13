@@ -108,14 +108,11 @@ const Expertise = () => {
               <span>CORE WORK</span>
             </div>
             <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight leading-tight">
-              WHAT I DO <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-rose-600 to-red-700 drop-shadow-[0_0_25px_rgba(229,9,20,0.35)]">
-                FOR YOU.
-              </span>
+              WHAT I <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-rose-600 to-red-700 drop-shadow-[0_0_25px_rgba(229,9,20,0.35)]">DO.</span>
             </h2>
           </div>
           <p className="text-white/60 text-xs md:text-sm font-light leading-relaxed max-w-xs">
-            Accounting, tax and advisory work for freelancers, online sellers and growing companies in Pakistan and the USA.
+            Accounting, tax and advisory work for freelancers, online sellers and growing companies in Pakistan, UAE and the USA.
           </p>
         </div>
 

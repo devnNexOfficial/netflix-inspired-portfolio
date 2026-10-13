@@ -103,7 +103,7 @@ const Home = () => {
       {/* 2. About Section */}
       <About />
 
-      {/* 3. Expertise Section (Heading: WHAT I DO FOR YOU) */}
+      {/* 3. Expertise Section (Heading: WHAT I DO) */}
       <Expertise />
 
       {/* 4. Service Cards Section (Interactive 3D Cards from Projects.jsx) */}
